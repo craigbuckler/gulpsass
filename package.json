@@ -1,0 +1,15 @@
+{
+  "name": "gulpsass",
+  "version": "1.0.0",
+  "description": "Sass testing",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Craig Buckler",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-sass": "^1.0.0"
+  }
+}

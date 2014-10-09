@@ -1,0 +1,19 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	@include font-size(16px, 20px);
+	color: $text-main;
+	color: $back-main;
+}
+
+ul, ol {
+	@extend %gpu-acceleration;
+	@include reset-list;
+	color: lighten($text-main, 25%);
+}
+
+.photo {
+	background: image-url('back.jpg') 0 0 no-repeat;
+}
